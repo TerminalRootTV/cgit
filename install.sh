@@ -11,4 +11,4 @@ if [[ ! "$(grep '\.local\/bin' $HOME/.bashrc)"  ]]; then
 	echo 'export PATH="${PATH}:${HOME}/.local/bin/"' >> $HOME/.bashrc
 fi
 
-printf "%s/n" "Success install!"
+printf "%s\n" "Success install!"
