@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+ 
 install(){
 	if [[ -d "$HOME/.local/bin" ]]; then
 		mv cgit $HOME/.local/bin/
